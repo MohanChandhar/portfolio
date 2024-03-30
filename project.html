@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="new">
+    
+    <div class="project">
+        <div class="nav1">
+            <h1>My Project</h1>
+            <a href="index.html"><button class="btn bt1"><img  src="https://clipart-library.com/images/8c6oA8zri.png" height="40px"></button></a>
+            
+         </div>
+        <div class="row project">
+            <div class="about-col1 project">
+                <img src="images/work-1.jpg">
+                <h3>Rest API</h3>
+           </div>
+            <div class="about-col2 project">
+                <p>
+                    <ul class="cont">
+                        RESTful APIs use standard HTTP methods to perform operations on resources: <br>
+                        <li><b>GET :</b>  Retrieve a representation of a resource. <br></li>
+                        <li><b>POST: </b>Create a new resource. <br></li>
+                        <li><b>PUT:</b> Update or create a resource. <br></li>
+                        <li><b>DELETE:</b>  Remove a resource. <br></li>
+                        REST encourages a uniform and consistent interface, which is achieved through constraints like: <br>
+                        <li><b>Identification of Resources: </b>Each resource is identified by a unique URI. <br> </li>
+                        <li><b>Manipulation of Resources through Representations:</b>  Clients interact with resources through their representations (commonly in JSON or XML). <br></li>
+                        <li><b>Hypermedia as the Engine of Application State (HATEOAS):</b> Responses provide links or hypermedia that guide the client on the next steps.</li>
+                    </ul>
+                </p><br>
+                <a  href="https://github.com/MohanChandhar/CRUD-operation.git" target="_blank"><button class=" pro">Link</button></a>
+            </div> 
+        </div>
+        <br>
+        <div class="row project">
+            <div class="about-col1 project">
+                <img src="images/work-2.jpg" >
+                <h3>University API</h3>    
+            </div>
+            <div class="about-col2 project"> 
+                <p>
+                    <ul class="cont">
+                       <li> When the application starts, it fetches university data from the JSONPlaceholder API using the  <b>"fetch"</b>  function and the <b>"useEffect"</b> hook in the <b>"UniversityList"</b> component. <br> </li>
+                       <li> The fetched data is stored in the <b>"universities"</b> state, and the loading state is set to false when the data retrieval is complete. <br></li>
+                        <li>The <b>"UniversityList"</b>  component then maps through the array of universities and displays them in a card format. <br></li>
+                        <li>If there is an error during the data fetching process, an error message is logged to the console. <br></li>
+                        <li>The <b>"App"</b> component renders the <b>"UniversityList"</b> component within a container, and the CSS styles provide a clean and organized layout. <br></li>
+                        <li>The result is a simple React application that dynamically fetches and displays university data from an API <br></li>
+                    </ul>
+                </p><br>
+                    <a href="https://github.com/MohanChandhar/list-of-university.git" target="_blank"><button class=" pro">Link</button></a>
+            </div>
+        </div>
+        <br>
+        <div class="row project">
+            <div class="about-col1 project">
+                <img src="images/work3.jpeg"  >
+                <h3>Booksky</h3>
+            </div>
+            <div class="about-col2 project">
+                <p>
+                    <ul class="cont">
+                        <li>The HTML file provides the basic structure of the project, including a button (#addicon) on the bottom  to open the popup and a container where book data will be dynamically added.</li>
+                        <li>The CSS file defines styles for the project, including styles for the popup.</li>
+                        <li>The JavaScript file  contains functions to handle opening and closing the popup. The add function adds a new book to the main window when the user clicks the "Add" button in the popup.</li>
+                        <li>The popup includes input fields for the book-title, author name and note, as well as "Add" and "Cancel" buttons.</li>
+                        <li>If the user clicks "Add" after entering title and author information, a new book element is created and appended to the main window. If the user clicks "Cancel"  it will be hidden.</li>
+                        <li>This simple project provides a basic example of how you can use HTML, CSS, and JavaScript to create a popup for adding books to a main window. You can further enhance this project by adding more features and refining the user interface based on your requirements</li>
+                    </ul>
+                </p><br>
+                <a href="https://github.com/MohanChandhar/book-sky.git" target="_blank"><button class=" pro">Link</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
